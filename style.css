@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Prata";
+  background: #faf4eb;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+/*Navigation*/
+.nav-container {
+  background: white;
+  height: 72px;
+  border-bottom: 2px solid #d8c7b5;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  height: 72px;
+}
+
+nav .logo {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.72);
+  transition: ease-out 0.2s;
+}
+
+nav .logo:hover {
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: ease-out 0.2s;
+}
+
+.nav-items a {
+  position: relative;
+  list-style: none;
+  right: -580px;
+  width: 163px;
+  height: 45px;
+  margin-top: 25px;
+  background-image: url("images/FolderTab.svg");
+  background-position: 50% 0%;
+  background-size: 175px;
+  text-align: center;
+  text-decoration: none;
+  color: #d8c7b5;
+  font-size: 14px;
+  line-height: 50px;
+  transition: ease-out 0.2s;
+}
+
+.nav-items a:hover {
+  margin-top: 15px;
+  height: 55px;
+  transition: ease-out 0.2s;
+}
+
+.left-image-container {
+  position: relative;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.left-rect {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 335px;
+  height: 480px;
+  margin-top: 20px;
+}
+
+.left-image {
+  display: block;
+  margin-right: auto;
+  width: 335px;
+  margin-top: -445px;
+  margin-left: 115px;
+  opacity: 75%;
+  border: 25px solid white;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  transform: rotate(-13.1deg);
+}
+
+.left-paperclip {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: -515px;
+  height: 166px;
+}
+
+.right-image-container {
+  position: relative;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 125px;
+}
+
+.right-rect {
+  display: block;
+  width: 425px;
+  height: 500px;
+}
+
+.right-image {
+  display: block;
+  margin-right: auto;
+  width: 335px;
+  margin-top: -490px;
+  opacity: 75%;
+  border: 25px solid white;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  transform: rotate(4.37deg);
+}
+
+.right-paperclip {
+  position: absolute;
+  margin-top: -530px;
+  margin-left: -5px;
+  height: 146.18px;
+}
+
+.header-container {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 151px;
+  margin-right: 149px;
+}
+
+.header {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 150px;
+}
+
+.message {
+  position: relative;
+  margin-bottom: -242px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.scribble {
+  width: 980px;
+}
+
+.roles {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.role-container-left {
+  display: flex;
+  text-align: left;
+}
+
+.role-container-right {
+  display: flex;
+  text-align: right;
+}
+
+.paragraph {
+  position: relative;
+  width: 520px;
+  font-size: 16px;
+  line-height: 27px;
+}

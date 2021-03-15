@@ -19,9 +19,9 @@ body {
 }
 
 nav {
-  display: flex;
-  position: absolute;
+  position: relative;
   height: 72px;
+  width: 100%
 }
 
 nav .logo {
@@ -41,14 +41,17 @@ nav .logo:hover {
   transition: ease-out 0.2s;
 }
 
+nav ul {
+  position: absolute;
+  right: 0
+}
+
 .nav-items a {
-  position: relative;
   list-style: none;
-  right: -580px;
   width: 163px;
   height: 45px;
   margin-top: 25px;
-  background-image: url("images/FolderTab.svg");
+  background-image: url("graphics/FolderTab.svg");
   background-position: 50% 0%;
   background-size: 175px;
   text-align: center;
